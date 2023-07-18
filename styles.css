@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    transition: 200ms ease;
+}
+#app{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-attachment: fixed;
+}
+.rod{
+    height: 3.5vh;
+    width: 12vw;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: absolute;
+    margin: 0;
+    left: 45%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.rod span{
+    font-size: 1rem;
+    color: white;
+    margin-left: 65px;
+}
+#rod1{
+    background-color: #20e720;
+    top:1%;
+}
+#ball{
+    height: 2vh;
+    width: 1vw;
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100%;
+    margin: 0;
+    top: 5%;
+}
+#rod2{
+    top: 95%;
+    background-color: #ea7a12;
+}
